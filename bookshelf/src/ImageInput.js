@@ -76,7 +76,7 @@ const readFileAsDataURL = (file) =>
        }
 
        componentWillUnmount() {
-         this.fileInput.form.removeElventListener('reset', this.handleFormReset);
+         this.fileInput.form.removeEventListener('reset', this.handleFormReset);
        }
 
        render() {
